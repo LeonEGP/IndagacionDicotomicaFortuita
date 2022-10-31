@@ -41,6 +41,7 @@ int main(void) {
 	vector <int> datos;
 	int busqueda;
     int aux;
+    int resultado;
 
     cin >> busqueda;
 
@@ -52,7 +53,7 @@ int main(void) {
 
     sort(datos.begin(),datos.end());
 
-	int resultado = randomizedBinarySearch(datos, 0, datos.size()-1, busqueda);
+	resultado = randomizedBinarySearch(datos, 0, datos.size()-1, busqueda);
 
     espacio();
     if (resultado != -999999999){
