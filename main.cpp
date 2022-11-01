@@ -46,7 +46,7 @@ int randomizedBinarySearch(vector<int> datos, int izquierda, int derecha, int bu
 }
 
 //Función main que ejecuta el programa, no recibe parámetros, retorna un entero [return 0].
-int main() {  //Complejidad Computacional: O(1). Dentro de esa ejecución lineal, se ejecuta un algoritmo de Ordenamiento para el Vector de Datos, de Complejidad Computacional: O(n log n), siendo n la cantidad de datos en el vector. Así mismo, el realizar la búsqueda binaria tiene una Complejidad Computacional: O(log n), siendo n la cantidad de datos en el vector. 
+int main() {  //Complejidad Computacional: O(1). Dentro de esa ejecución lineal, se ejecuta un algoritmo de Ordenamiento para el Vector de Datos (Ya que es vital que los datos estén ordenados para la Búsqueda Binaria Aleatorizada), de Complejidad Computacional: O(n log n), siendo n la cantidad de datos en el vector. Así mismo, el realizar la búsqueda binaria tiene una Complejidad Computacional: O(log n), siendo n la cantidad de datos en el vector. 
 
 	vector <int> datos;
 	int busqueda;
