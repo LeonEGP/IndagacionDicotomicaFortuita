@@ -76,10 +76,3 @@ int main() {  //Complejidad Computacional: O(1). Dentro de esa ejecución lineal
 
 	return 0;
 }
-
-/*
-    https://www.geeksforgeeks.org/randomized-binary-search-algorithm/
-    https://www.geeksforgeeks.org/randomized-algorithms-set-2-classification-and-applications/
-    https://www.geeksforgeeks.org/binary-search/
-    https://nuwant.medium.com/randomized-algorithms-8425e6302a7d 
-*/
